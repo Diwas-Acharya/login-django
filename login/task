@@ -1,0 +1,21 @@
+Hi Intern,
+
+Greetings!!!
+
+We are happy to receive your application. We hope you will have a good learning experience & varied exposure working with us. Thank you for applying. 
+As a part of the selection process, kindly do the following assignment, and revert back as and when you have completed it. Last date is 22.09.2019.
+
+Assignment:-
+
+Create a homepage as shown in (home_page.png). The homepage should show the number of user's online, and the timestamp as seen in home_page.png.
+Create a table named USERS with the following fields (id, username, password, confirm-password, email, address). Then, create a LOGIN page with the fields (Username & Password) and a corresponding SIGNUP page. On the same LOGIN page provide the Hyperlink fields for Register & Forgot Password below SignIn button. 
+After, signin display a page with a Welcome message for that username. Now, create a simple andriod app for login similar to the webpage created. Note the app has to be integrated with the webpage (which means the user should be able to login to both the app and website with the same login credentials)
+
+Send, the assignment as a zip file with your name as the zip file name (eg: mahesh_web.zip) which should include the Code, README file, GUI screenshots, and also explain the way you have proceeded with the task to dmachine.solutions@gmail.com
+
+
+Note:- You can use any languages of your choice. 
+PHP, Java, .NET, HTML5, SQL, XML, Android, MySQL, CSS, JavaScript, SQLITE, Django, Flask, etc
+
+Good Luck,
+Team DRM
