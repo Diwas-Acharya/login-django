@@ -16,12 +16,13 @@ def register(request):
 		form = RegisterForm(request.POST)
 		if form.is_valid():
 			username = form.cleaned_data.get('username')
-			redirect("login")
+			form.save()
+			return redirect("/login")
 			print("user created")
 		else:
-			print("something wromg")
+			print("something wrong")
 	else:
-		form = RegisterForm(request.POST)
+		form = RegisterForm()
 
 	return render(request,"register.html",{"form":form})
 
