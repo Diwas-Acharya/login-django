@@ -3,13 +3,18 @@
 <head>
 	<title>register</title>
 </head>
+{% load crispy_forms_tags %}
 <body>
 <h1>Register page</h1>
 <form method="post">{% csrf_token %}
-        {{form}}
+	<legend>Join Today</legend>
+        {{form|crispy}}
         <input type="submit">
     </form>
  <small>Already have account ? <a href="/login">Login</a></small>
  <h1> <a href="/">Home</a></h1>
+ {% for message in messages %}
+ <h2>{{message}}</h2>
+ {% endfor %}
 </body>
 </html>

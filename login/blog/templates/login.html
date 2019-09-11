@@ -7,13 +7,18 @@
 
 <body>
     <h1>login</h1>
-    <form>
+    <div>
+    <form method="post">{% csrf_token %}
         <input type="text" name="username" placeholder="username">
         <input type="password" name="password" placeholder="password">
         <input type="submit">
     </form>
+</div>
     <small>Don't have account ? <a href="/register">Register</a></small>
     <h1> <a href="/">Home</a></h1>
-</body>
 
+{% for message in messages %}
+ <h2>{{message}}</h2>
+ {% endfor %}
+ </body>
 </html>
